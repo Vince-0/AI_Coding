@@ -46,6 +46,11 @@ https://www.augmentcode.com/
 
 https://app.augmentcode.com/your-usage?yourUsageFilter=30
 
+
+https://www.swebench.com/
+
+https://github.com/augmentcode/augment-swebench-agent
+
 (SCREENSHOTS)
 
 --
@@ -54,7 +59,12 @@ Using Augment Code I was able to create [Phone - Chrome Extension SIP Client](ht
 
 I included a [.augment](https://github.com/Vince-0/webrtc-chrome/tree/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment) folder in the project root directory to direct Augment Code behavior.
 
-Together with "Agent" mode chat prompts like 
+Together with "Agent" mode chat prompts like:
+
+
+
+
+I would still have to often prompt for instructions like, update the README, the current checkpoint is in fact, ask any questions to elaborate and clarify implemenation.
 
 --
 

@@ -12,11 +12,10 @@ The fact is that it is early days for the ecosystem of tools around AI assisted 
 
 The term "vibe coding" has been used to label the process of producing software from natural language prompts without technical knowledge.
 
-
-Tools include:
+AI assisted coding tools include:
 Augment, Bolt, Claude Code, Replit, Cursor, GitHub Copilot, Warp, Windsurf.
 
-These implement some version of features that enable AI assisted code generation:
+These implement some version of features that enable AI assisted code generation and development automation:
 
 - Auto complete
 - Console interaction

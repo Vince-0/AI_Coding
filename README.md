@@ -1,4 +1,4 @@
-# AI assisted software development
+# AI Assisted Software Development
 AI coding is growing rapidly on the back of the AI development race. 
 Companies like Anthropic, Deepseek, Google, Microsoft, Meta, OpenAI and xAI etc. have spent millions developing software systems and applications to use them:
 

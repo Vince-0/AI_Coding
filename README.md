@@ -137,13 +137,14 @@ The memories function creates rules to remember when you correct it on workflow 
 
 ### Augment Code Tricks
 
-I included a [.augment](https://github.com/Vince-0/webrtc-chrome/tree/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment) folder in the project root directory to direct chat behavior. 
+For my [Phone - Chrome Extension SIP Client](https://github.com/Vince-0/webrtc-chrome), I included a [.augment](https://github.com/Vince-0/webrtc-chrome/tree/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment) folder in the project root directory to direct chat behavior. 
 
 Even with guidelines I found that I still had to prompt regularly for:
 
 - Correct checkpoint numbering because it isn't a variable that is available to the chat context and often falls behind increments.
 - Use the task list correctly by updating just the checkpoint numbering and not the statuses or sections.
 - Update the README.
+- Ask questions to elaborate and clarify feature implementation.
 
 #### Guidelines
 User and workspace [guidelines](https://docs.augmentcode.com/setup-augment/guidelines) are supposed to be implemented in a file in the root directory of the project.
@@ -170,7 +171,7 @@ WORKFLOW: Ask any questions about implementing features from tasks that could el
 WORKFLOW: Suggest any changes to the code files and folder structure to better separate code into logical boundaries that help create better maintenance, good coding practices and file separation.
 ```
 
-#### Tasklist
+#### Task List
 
 I want the agent to work against a task list with some statuses that I manage and keep notes on using this guideline:
 ```
@@ -248,4 +249,4 @@ Augment Code has since released a new pricing structure on their Discord that wi
 
 ---
 
-(Edited with AI assistance)
+(Edited with Claude assistance)

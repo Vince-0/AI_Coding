@@ -101,7 +101,7 @@ It went something like this:
 </p>
 
 <p align="center">
-<img src="https://github.com/Vince-0/AI_Coding/blob/054a43c4b84a3a96584ee65dc6f818f99bdeff90/pictures/augment_app1.png" />
+<img src="https://github.com/Vince-0/AI_Coding/blob/cfdb147db685bcd012d9daf92bbf2710b0205a3b/pictures/augment_app1.png" />
 </p>
 
 Augment Code comes in extensions for:
@@ -226,7 +226,7 @@ WORKFLOW: Update augment/augment-README file so it explains the project features
 
 At the end, usage looked like this:
 <p align="center">
-<img src="https://github.com/Vince-0/AI_Coding/blob/054a43c4b84a3a96584ee65dc6f818f99bdeff90/pictures/augment_usage.png" />
+<img src="https://github.com/Vince-0/AI_Coding/blob/cfdb147db685bcd012d9daf92bbf2710b0205a3b/pictures/augment_usage.png" />
 </p>
 
 This statistic page seems to have since been removed.
@@ -234,7 +234,7 @@ This statistic page seems to have since been removed.
 Augment Code has since released a new pricing structure on their Discord that will soon be implemented
 
 <p align="center">
-<img src="https://github.com/Vince-0/AI_Coding/blob/054a43c4b84a3a96584ee65dc6f818f99bdeff90/pictures/augmentcode_new_pricing_table.png" />
+<img src="https://github.com/Vince-0/AI_Coding/blob/cfdb147db685bcd012d9daf92bbf2710b0205a3b/pictures/augmentcode_new_pricing_table.png" />
 </p>
 
 

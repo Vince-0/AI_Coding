@@ -115,6 +115,8 @@ Augment Code comes in extensions for:
 - [VS Code](https://marketplace.visualstudio.com/items?itemName=augment.vscode-augment)
 - Vim, Neovim
 - JetBrains
+
+Together with VSCode Github and Remote SSH it was easy to have an iterative workflow of tasks to implement, test and commit.
   
 Much like Cursor, it indexes your code and enables you to ask questions and make changes using natural language prompts. 
 

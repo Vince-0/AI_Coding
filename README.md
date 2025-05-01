@@ -13,7 +13,9 @@ It also enables non-developers like me to implement software libraries without w
 
 This is not without its controversy due to the quality of the software produced by non-developers.
 
-The fact is that it is early days for the ecosystem of tools around AI assisted coding and it is improving rapidly.
+The fact is that it is early days for the ecosystem of tools around AI assisted coding and it is improving rapidly. 
+
+There is definitely value to be made, even if it is for producing proof of concept projects for non-coders through to advanced system architectures for software developers.
 
 The term "vibe coding" has been used to label the process of producing software from natural language prompts without technical knowledge.
 
@@ -26,6 +28,7 @@ Augment, Bolt, ChatGPT, Claude, Cursor, Replit, GitHub Copilot, Warp, Windsurf e
 
 These implement some version of features that enable AI assisted code generation and development automation inlcuding:
 
+- [Agent2Agent Protocol](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/)
 - Auto complete
 - Automated testing
 - Console interaction
@@ -35,8 +38,7 @@ These implement some version of features that enable AI assisted code generation
 - Document,image generation
 - [Model Context Protocol](http://anthropic.com/news/model-context-protocol)
 - Task management
-- 
----
+
 The tools below helped me create some of these projects:
 
 - [MSTeams FreePBX](https://github.com/Vince-0/MSTeams-FreePBX)
@@ -44,8 +46,8 @@ The tools below helped me create some of these projects:
 - [WebRTC Server](https://github.com/Vince-0/FreeSWITCH_WEBRTC) 
 - [WebRTC Client](https://github.com/Vince-0/WebRTC_client)
 - [Phone - Chrome Extension SIP Client](https://github.com/Vince-0/webrtc-chrome)
----
 
+---
 ## ChatGPT
 Most people know OpenAI's [ChatGPT](https://chatgpt.com/) as an AI chat application to ask questions and do image generation.
 
@@ -59,8 +61,8 @@ I used it a while ago for basic:
 <p align="center">
 <img src="https://github.com/Vince-0/AI_Coding/blob/7694110e21855b26cf491555abb2b6cf931e36c7/pictures/frog.jpg" />
 </p>
----
 
+---
 ## Claude
 
 Anthropic's [Claude](https://claude.ai/) was puported to be better at Python coding so I tried it next and elaborated on Python scripts. 
@@ -71,8 +73,8 @@ I used Claude for basic Python:
 - Libraries for image manipulation (10/10)
 
 However, after adding Javascript libraries for SIP, the context size was quickly maxed out and became unusable.
----
 
+---
 ## Cursor IDE
 
 First I tried [Cursor](https://www.cursor.com/) because it was a prominent IDE with a 14 day trail 500 premium credits and smaller model usage. 
@@ -97,7 +99,7 @@ It went something like this:
 
 ---
 
-## Augement Code
+## Augment Code
 
 [Augment Code](https://www.augmentcode.com/) had the highest verified [SWE-bench](https://www.swebench.com/) scores and I was impressed how it produced smart and high quality  responses from its context engine.
 
@@ -116,7 +118,7 @@ Augment Code comes in extensions for:
   
 Much like Cursor, it indexes your code and enables you to ask questions and make changes using natural language prompts. 
 
-Using Augment Code [Agent mode](https://docs.augmentcode.com/using-augment/agent), model selection (isn't an option)[https://www.augmentcode.com/blog/ai-model-pickers-are-a-design-failure-not-a-feature].
+Using Augment Code [Agent mode](https://docs.augmentcode.com/using-augment/agent), model selection [isn't an option](https://www.augmentcode.com/blog/ai-model-pickers-are-a-design-failure-not-a-feature).
 
 It used a documentation retrieval function to investigate implementing SIP.js. 
 
@@ -215,7 +217,6 @@ Total user chat messages: #
 Total user agent requests: #
 Total user agent tool uses: #
 ```
---
 
 #### README
 

@@ -1,6 +1,6 @@
 # AI Coding
 AI assisted software development is growing rapidly on the back of the AI development race. 
-Companys like Anthropic, Deepseek, Google, Microsoft, Meta, OpenAI,  and xAI etc. have spent millions developing software systems for ML: Machine Learning, NLP: Natural Language Processing, RPA: Robotic Process Automation, LLM: Large Language Models and applications to use them. 
+Companys like Anthropic, Deepseek, Google, Microsoft, Meta, OpenAI and xAI etc. have spent millions developing software systems for ML: Machine Learning, NLP: Natural Language Processing, RPA: Robotic Process Automation, LLM: Large Language Models and applications to use them. 
 
 Tools based on these generative and agentic AI technologies enable developers to investigate and create large amounts of code.
 
@@ -13,30 +13,55 @@ The fact is that it is early days for the ecosystem of tools around AI assisted 
 The term "vibe coding" has been used to label the process of producing software from natural language prompts without technical knowledge.
 
 AI assisted coding tools include:
-Augment, Bolt, Claude Code,Cursor, Replit, GitHub Copilot, Warp, Windsurf.
+Augment, Bolt, ChatGPT, Claude, Cursor, Replit, GitHub Copilot, Warp, Windsurf etc.
 
-These implement some version of features that enable AI assisted code generation and development automation:
+These implement some version of features that enable AI assisted code generation and development automation inlcuding:
 
 - Auto complete
 - Automated testing
 - Console interaction
-- Code repository interaction
-- Code interrogation
-- Code refactoring
+- Code repository interaction, interrogation, refactoring
+- Computer Vision
 - Context awareness
-- Documentation generation
-- Image interpretation
+- Document,image generation
 - [Model Context Protocol](http://anthropic.com/news/model-context-protocol)
 - Task management
 
+## ChatGPT
+Most people know OpenAI's [ChatGPT](https://chatgpt.com/) as a AI chat application to ask questions and do image generation.
+
+I used it a while ago for basic:
+- Document writing elaboration (9/10)
+- BASH, Python script writing (8/10)
+- Elaborate spreadsheet formula generation (8/10)
+- Diagram generation (2/10)
+- Frog cartoons (6/10)
+
+<p align="center">
+<img src="https://github.com/Vince-0/AI_Coding/blob/7694110e21855b26cf491555abb2b6cf931e36c7/pictures/frog.jpg" />
+</p>
+
+This lead to the first versions of these projects' script and README files:
+
+[MSTeams FreePBX](https://github.com/Vince-0/MSTeams-FreePBX)
+
+[Log Parser](https://github.com/Vince-0/Log-parser)
+
+## Claude
+
+Anthropic's [Claude AI](https://claude.ai/) was puported to be better at Python coding so I tried it next and elaborated on 
 
 
 --
 
-https://www.cursor.com/
+I want to implement a web phone to connect to my [VOIP switch](https://github.com/Vince-0/FreeSWITCH_WEBRTC) using a Javascript library like [JsSIP](https://jssip.net/) or [SIP.js](https://sipjs.com/).
 
-https://jssip.net/
+First I tried [Cursor](https://www.cursor.com/) because it was a prominent product with a trial option.
 
+First prompt: "Create a JsSIP client"
+
+
+[WebRTC Client](https://github.com/Vince-0/WebRTC_client)
 
 --
 

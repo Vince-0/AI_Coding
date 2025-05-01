@@ -35,7 +35,8 @@ These implement some version of features that enable AI assisted code generation
 - Document,image generation
 - [Model Context Protocol](http://anthropic.com/news/model-context-protocol)
 - Task management
-
+- 
+---
 The tools below helped me create some of these projects:
 
 - [MSTeams FreePBX](https://github.com/Vince-0/MSTeams-FreePBX)
@@ -43,7 +44,7 @@ The tools below helped me create some of these projects:
 - [WebRTC Server](https://github.com/Vince-0/FreeSWITCH_WEBRTC) 
 - [WebRTC Client](https://github.com/Vince-0/WebRTC_client)
 - [Phone - Chrome Extension SIP Client](https://github.com/Vince-0/webrtc-chrome)
-
+---
 
 ## ChatGPT
 Most people know OpenAI's [ChatGPT](https://chatgpt.com/) as an AI chat application to ask questions and do image generation.
@@ -58,6 +59,7 @@ I used it a while ago for basic:
 <p align="center">
 <img src="https://github.com/Vince-0/AI_Coding/blob/7694110e21855b26cf491555abb2b6cf931e36c7/pictures/frog.jpg" />
 </p>
+---
 
 ## Claude
 
@@ -69,6 +71,7 @@ I used Claude for basic Python:
 - Libraries for image manipulation (10/10)
 
 However, after adding Javascript libraries for SIP, the context size was quickly maxed out and became unusable.
+---
 
 ## Cursor IDE
 
@@ -91,6 +94,8 @@ It went something like this:
 - Stopped at unpassable hurdles implementing JsSIP with compatible codecs
 - Use SIP.js instead
 - 14 day trial expired
+
+---
 
 ## Augement Code
 
@@ -126,7 +131,13 @@ The memories function creates rules to remember when you correct it on workflow 
 
 ### Augment Code Tricks
 
-I included a [.augment](https://github.com/Vince-0/webrtc-chrome/tree/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment) folder in the project root directory to direct chat behavior:
+I included a [.augment](https://github.com/Vince-0/webrtc-chrome/tree/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment) folder in the project root directory to direct chat behavior. 
+
+Even with guidelines I found that I still had to prompt regularly for:
+
+- Correct checkpoint numbering because it isn't a variable that is available to the chat context and often falls behind increments.
+- Use the task list correctly by updating just the checkpoint numbering and not the statuses or sections.
+- Update the README.
 
 #### Guidelines
 User and workspace [guidelines](https://docs.augmentcode.com/setup-augment/guidelines) are supposed to be implemented in a file in the root directory of the project.
@@ -141,8 +152,6 @@ WORKFLOW: Use these guidelines to update your remember rules
 WORKFLOW: Use the augment/augment-tasklist as a task list to read COMPLETE, PENDING, and NEW tasks with associated categories for example: UX. I will update the task list as needed.
 
 WORKFLOW: Copy all of the Augment chat history output into the augment/augment-chathistory file at the end of every chat interaction in an append only fashion. There is no need to read the entire chat history unless instructed to. 
-
-WORKFLOW: Include all checkpoint numbers so that it can be referred to easily from the augment-tasklist file in the CHECKPOINT: tag at the end of every task description.
 
 WORKFLOW: Number each set of code changes in the chat history exactly like checkpoints numbering so that we can refer to them in the augment/augment-tasklist file, for example: UX:Task description and instructions:CHECKPOINT:1,4,6,10.
 
@@ -219,12 +228,7 @@ WORKFLOW: Update augment/augment-README file so it explains the project features
 [README](https://github.com/Vince-0/webrtc-chrome/blob/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment/augment-README)
 
 
-
-
---
-
-
-At the end, usage looked like this:
+Usage looked like this for [Phone - Chrome Extension SIP Client](https://github.com/Vince-0/webrtc-chrome):
 <p align="center">
 <img src="https://github.com/Vince-0/AI_Coding/blob/cfdb147db685bcd012d9daf92bbf2710b0205a3b/pictures/augment_usage.png" />
 </p>
@@ -237,7 +241,6 @@ Augment Code has since released a new pricing structure on their Discord that wi
 <img src="https://github.com/Vince-0/AI_Coding/blob/cfdb147db685bcd012d9daf92bbf2710b0205a3b/pictures/augmentcode_new_pricing_table.png" />
 </p>
 
+---
 
 (Written without AI assistance)
-
-

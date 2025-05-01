@@ -80,7 +80,7 @@ However, after adding Javascript libraries for SIP, the context size was quickly
 First I tried [Cursor](https://www.cursor.com/) because it was a prominent IDE with a 14 day trail 500 premium credits (thereafter 50/day) and smaller model usage.
 
 <p align="center">
-<img src="https://github.com/Vince-0/AI_Coding/blob/f6778f9811a15d80c0fdd429390cdd1315b6ebe1/pictures/cursor_settings.png" />
+<img src="https://github.com/Vince-0/AI_Coding/blob/9c0af4d6236bd06cdfbf6bc437b89aa2316c52cc/pictures/cursor_settings.png" />
 </p>
 
 Forked from [VS Code](https://code.visualstudio.com/), there are various [chat modes](https://docs.cursor.com/chat/overview) and [model selections](https://docs.cursor.com/chat/overview#model-selection).

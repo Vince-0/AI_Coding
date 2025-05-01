@@ -111,7 +111,7 @@ Augment Code comes in extensions for:
   
 Much like Cursor, it indexes your code and enables you to ask questions and make changes using natural language prompts. 
 
-Using Augment Code [Agent mode](https://docs.augmentcode.com/using-augment/agent), model selection isn't an option. However this doesn't seem like a problem because I believe it uses a combination of models to separate tasks into smaller jobs that it mediates through its context engine.
+Using Augment Code [Agent mode](https://docs.augmentcode.com/using-augment/agent), model selection (isn't an option)[https://www.augmentcode.com/blog/ai-model-pickers-are-a-design-failure-not-a-feature].
 
 It used a documentation retrieval function to investigate implementing SIP.js. 
 
@@ -126,13 +126,16 @@ The memories function creates rules to remember when you correct it on workflow 
 
 ### Augment Code Tricks
 
-I included a [.augment](https://github.com/Vince-0/webrtc-chrome/tree/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment) folder in the project root directory to direct chat behavior.
+I included a [.augment](https://github.com/Vince-0/webrtc-chrome/tree/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment) folder in the project root directory to direct chat behavior:
 
+#### Guidelines
+User and workspace [guidelines](https://docs.augmentcode.com/setup-augment/guidelines) are supposed to be implemented in a file in the root directory of the project.
 
-Read and implement the augment-guidelines, ask any questions that elaborate and clarify these guidelines
+I want them in my .augment folder [file](https://github.com/Vince-0/webrtc-chrome/blob/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment/augment-guidelines) and prompted.
 
-https://github.com/Vince-0/webrtc-chrome/blob/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment/augment-guidelines
+Prompt: "Read and implement the augment-guidelines, ask any questions that elaborate and clarify these guidelines"
 
+```
 WORKFLOW: Use these guidelines to update your remember rules
 
 WORKFLOW: Use the augment/augment-tasklist as a task list to read COMPLETE, PENDING, and NEW tasks with associated categories for example: UX. I will update the task list as needed.
@@ -150,13 +153,20 @@ WORKFLOW: Update augment/augment-README file so it explains the project features
 WORKFLOW: Ask any questions about implementing features from tasks that could elaborate and clarify the task
 
 WORKFLOW: Suggest any changes to the code files and folder structure to better separate code into logical boundaries that help create better maintenance, good coding practices and file separation.
+```
 
---
+#### Tasklist
 
-https://github.com/Vince-0/webrtc-chrome/blob/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment/augment-tasklist
+I want the agent to work against a task list with some statuses that I manage and keep notes on using this guideline:
+```
+WORKFLOW: Use the augment/augment-tasklist as a task list to read COMPLETE, PENDING, and NEW tasks with associated categories for example: UX. I will update the task list as needed.
+```
 
+
+[augment-tasklist](https://github.com/Vince-0/webrtc-chrome/blob/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment/augment-tasklist)
+
+```
 #STATUS:COMPLETE:
-
 
 #STATUS:PENDING:
 WORKFLOW: Read the files in the .augment folder: augment-guidlienes, augment-tasklist. Explain what you understand about the guidelines for the workflow for this project.:CHECKPOINT:1
@@ -168,38 +178,48 @@ BUG
 #STATUS: PARKED:
 
 #STATUS: BROKEN:
+```
+
+#### Chat history
+
+A chat history file could help create context data, track checkpoints help troubleshooting especially when moving projects between tools using this guideline:
+```
+WORKFLOW: Append to the augment/augment-chathistory file the Augment platform statistics usage such as: Total user chat messages,Total user agent requests, Total user agent tool uses.
+```
+
+[augment-chathistory](https://github.com/Vince-0/webrtc-chrome/blob/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment/augment-chathistory)
 
 
+Chat history sections:
+```
+## CHECKPOINT: [#]
+
+### User
+
+### Assistant
+
+## Planning
+
+
+## Statistics
+Total user chat messages: #
+Total user agent requests: #
+Total user agent tool uses: #
+```
 --
 
-Record our chat history in this file:
+#### README
 
-https://github.com/Vince-0/webrtc-chrome/blob/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment/augment-chathistory
+A README file could help create more context data and be used to produce user README documentation using this guideline:
 
-https://github.com/Vince-0/webrtc-chrome/blob/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment/augment-chathistory1
+```
+WORKFLOW: Update augment/augment-README file so it explains the project features, directory structure, prerequisites, installation, configuration details, usage, key files and key functions after each code change. Include any information that could be useful for users,developers and LLMs/AI to understand the project enough to be able to start developing it by just reading the README file.
+```
 
-
-Statistics
-
-- Total user chat messages: 3
-
-- Total user agent requests: 1
-
-- Total user agent tool uses: 10
+[README](https://github.com/Vince-0/webrtc-chrome/blob/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment/augment-README)
 
 
---
 
-
-https://github.com/Vince-0/webrtc-chrome/blob/8f00e5f462bedeb7271dbe8a935ecbc9ce129520/.augment/augment-README
-
-
----
-
-Together with "Agent" mode chat prompts like:
-
-
-I would still have to often prompt for instructions like, update the README, the current checkpoint is in fact, ask any questions to elaborate and clarify implemenation.
 
 --
 

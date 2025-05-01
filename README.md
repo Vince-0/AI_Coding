@@ -1,6 +1,6 @@
-# AI Coding
-AI assisted software development is growing rapidly on the back of the AI development race. 
-Companys like Anthropic, Deepseek, Google, Microsoft, Meta, OpenAI and xAI etc. have spent millions developing software systems and applications to use them:
+# AI assisted software development
+AI coding is growing rapidly on the back of the AI development race. 
+Companies like Anthropic, Deepseek, Google, Microsoft, Meta, OpenAI and xAI etc. have spent millions developing software systems and applications to use them:
 
 - LLM: Large Language Models 
 - ML: Machine Learning
@@ -26,7 +26,7 @@ The term "vibe coding" has been used to label the process of producing software 
 AI assisted coding tools include:
 Augment, Bolt, ChatGPT, Claude, Cursor, Replit, GitHub Copilot, Warp, Windsurf etc.
 
-These implement some version of features that enable AI assisted code generation and development automation inlcuding:
+These implement some version of features that enable AI assisted code generation and development automation including:
 
 - [Agent2Agent Protocol](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/)
 - Auto complete
@@ -39,6 +39,8 @@ These implement some version of features that enable AI assisted code generation
 - [Model Context Protocol](http://anthropic.com/news/model-context-protocol)
 - Task management
 
+---
+### Let's Go
 The tools below helped me create some of these projects:
 
 - [MSTeams FreePBX](https://github.com/Vince-0/MSTeams-FreePBX)
@@ -65,7 +67,7 @@ I used it a while ago for basic:
 ---
 ## Claude
 
-Anthropic's [Claude](https://claude.ai/) was puported to be better at Python coding so I tried it next and elaborated on Python scripts. 
+Anthropic's [Claude](https://claude.ai/) was purported to be better at Python coding so I tried it next and elaborated on Python scripts. 
 
 I used Claude for basic Python:
 - Input and output example data (10/10)
@@ -77,7 +79,7 @@ However, after adding Javascript libraries for SIP, the context size was quickly
 ---
 ## Cursor IDE
 
-First I tried [Cursor](https://www.cursor.com/) because it was a prominent IDE with a 14 day trail 500 premium credits (thereafter 50/day) and smaller model usage.
+First I tried [Cursor](https://www.cursor.com/) because it was a prominent IDE with a 14 day trial 500 premium credits (thereafter 50/day) and smaller model usage.
 
 <p align="center">
 <img src="https://github.com/Vince-0/AI_Coding/blob/9c0af4d6236bd06cdfbf6bc437b89aa2316c52cc/pictures/cursor_settings.png" />
@@ -246,4 +248,4 @@ Augment Code has since released a new pricing structure on their Discord that wi
 
 ---
 
-(Written without AI assistance)
+(Edited with AI assistance)
